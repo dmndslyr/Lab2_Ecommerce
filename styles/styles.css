@@ -280,6 +280,10 @@ h3.learn-more{
         grid-template-columns: 1fr; 
     }
 
+    .album-container {
+        grid-template-columns: 1fr; 
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: 1fr; 
