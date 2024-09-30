@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'IMFELL';
+    src: url('../fonts/IMFellDWPica/IMFELLRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMFELLItalic';
+    src: url('../fonts/IMFellDWPica/IMFELLItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../fonts/HelveticaNeueBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaThin';
+    src: url('../fonts/HelveticaNeueThin.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaRoman';
+    src: url('../fonts/HelveticaNeueRoman.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaThin';
+    src: url('../fonts/HelveticaNeueThin.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
