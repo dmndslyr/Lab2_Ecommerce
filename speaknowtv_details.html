@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Speak Now (Taylor's Version)</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2>PHP 549.00</h2>
             <h2>2023 | 22 tracks, 1hr 44min</h2>
             <p class="description">Speak Now (Taylor's Version) is the third re-recorded album by the American singer-songwriter Taylor Swift, released on July 7, 2023, by Republic Records. Speak Now (Taylor's Version) consists of songs written solely by Swift. A country pop and pop rock album, Speak Now (Taylor's Version) incorporates various rock styles such as emo, pop-punk, and alternative rock. Its sound is characterized by prominent electric guitars, dynamic drums, and strings. Reflecting Swift's adolescence, the songs document emotions of affection, grievance, and heartbreak, forming a loose concept album of unspoken confessions.</p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'Speak Now TV', price: 549, photo: 'ts_sntv.png'})">Add to Cart</button>
         </div>
     </div>
 
