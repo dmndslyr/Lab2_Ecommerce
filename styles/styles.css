@@ -294,4 +294,9 @@ h3.learn-more{
         max-width: 100%; 
         max-height: none; 
     }
+
+    img.image {
+        max-width: 100%; 
+        max-height: none; 
+    }
 }
