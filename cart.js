@@ -102,6 +102,20 @@ function displayCart() {
     }
 }
 
+// Get the button element
+const checkoutButton = document.getElementById('checkoutButton');
+
+// Add event listener to the button
+checkoutButton.addEventListener('click', function() {
+    alert('You have successfully checked out your order!');
+
+     // Clear the cart from local storage
+     localStorage.removeItem('cart');
+
+     // Re-render the cart to show that it's empty
+     displayCart();
+});
+
 // Call displayCart if on the cart page
 if (window.location.href.includes('cart.html')) {
     displayCart();

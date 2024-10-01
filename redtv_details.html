@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red (Taylor's Version)</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2 style="color: white;">PHP 519.00</h2>
             <h2 style="color: white;">2021 | 30 tracks, 2hr 10min</h2>
             <p class="description" style="color: white;">Red (Taylor's Version) is the second re-recorded album by the American singer-songwriter Taylor Swift, released on November 12, 2021, by Republic Records. Red (Taylor's Version) includes re-recorded versions of Red and the 2012 charity single "Ronan", as well as nine tracks denoted as "From the Vault": six unreleased songs, a 10-minute-long version of "All Too Well", and solo versions of "Better Man" (2016) and "Babe" (2018), which Swift had written for other artists. Music critics described Red (Taylor's Version) as an eclectic album combining styles of pop, country, rock, and electronic, featuring various instruments such as acoustic strings and electronic keyboards. Its songs address the different dynamics of love and heartbreak. </p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'Red TV', price: 519, photo: 'ts_redtv.png'})">Add to Cart</button>
         </div>
     </div>
 

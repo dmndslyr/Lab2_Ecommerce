@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2 style="color: white;">PHP 199.00</h2>
             <h2 style="color: white;">2012 | 22 tracks, 1hr 30min</h2>
             <p class="description" style="color: white;">Red is the fourth studio album by the American singer-songwriter Taylor Swift, released on October 22, 2012, by Big Machine Records. Swift designated Red as a breakup album that portrays the complex and conflicting feelings ensuing from lost love. Hoping to convey those sentiments sonically, Swift engaged new producers to experiment with sounds beyond the country pop style of her past albums. </p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'Red', price: 199, photo: 'ts_red.png'})">Add to Cart</button>
         </div>
     </div>
 

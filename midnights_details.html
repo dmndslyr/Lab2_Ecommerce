@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midnights</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2 style="color: white;">PHP 599.00</h2>
             <h2 style="color: white;">2022 | 23 tracks, 1 hr 20 min</h2>
             <p class="description" style="color: white;">Midnights is the tenth studio album by the American singer-songwriter Taylor Swift, released on October 21, 2022, by Republic Records. Swift conceived it as a concept album about nocturnal ruminations inspired by her sleepless nights. The autobiographical songwriting explores broad emotions such as regrets, self-criticism, fantasies, heartbreak, and infatuation, using confessional yet cryptic lyrics that allude to her personal life and public image.</p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'Midnights', price: 599, photo: 'ts_midnights.png'})">Add to Cart</button>
         </div>
     </div>
 

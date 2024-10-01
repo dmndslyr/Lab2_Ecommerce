@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>folklore</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2>PHP 499.00</h2>
             <h2>2020 | 17 tracks, 1hr 7min</h2>
             <p class="description">Folklore is the eighth studio album by the American singer-songwriter Taylor Swift. It was surprise-released on July 24, 2020, via Republic Records. Conceived during quarantine in early 2020 amidst the COVID-19 pandemic, Folklore explores themes of escapism, nostalgia, and romanticism. Using a set of characters and story arcs to depict fictional narratives, it departs from the autobiographical songwriting that had characterized Swift's past albums. Experimenting with new musical styles for Swift, Folklore consists of mellow ballads driven by piano, strings, and muted percussions; music critics mostly classify the genre as indie folk and alternative rock. The album's title was inspired by the lasting legacy of folktales, and its visual aesthetic adopts cottagecore.</p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'folklore', price: 499, photo: 'ts_folklore.png'})">Add to Cart</button>
         </div>
     </div>
 

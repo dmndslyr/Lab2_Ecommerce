@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fearless (Taylor's Version)</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2>PHP 499.00</h2>
             <h2>2021 | 17 tracks, 1hr 9min</h2>
             <p class="description">Fearless (Taylor's Version) is the first re-recorded album by the American singer-songwriter Taylor Swift, released on April 9, 2021, by Republic Records. A country pop album, Fearless (Taylor's Version) includes re-recorded versions of the songs on Fearless and the soundtrack single "Today Was a Fairytale" for the 2010 film Valentine's Day. Written during Swift's teenage years, the lyrics are about her adolescent reflections and feelings on love and heartbreak.</p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'Fearless TV', price: 499, photo: 'ts_Fearlesstv.png'})">Add to Cart</button>
         </div>
     </div>
 

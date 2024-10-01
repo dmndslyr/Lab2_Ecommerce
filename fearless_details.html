@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fearless</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -23,14 +24,14 @@
 
     <div class="album-container" style="background-color: #EFC180;">
         <div class="image">
-            <img class="details-album-cover" src="./assets/ts_fearlesstv.png" alt="Taylor Swift">
+            <img class="details-album-cover" src="./assets/ts_fearless.png" alt="Taylor Swift">
         </div>
         <div class="front-contents">
             <h1 style="font-size: xx-large; text-align: left;">Fearless</h1>
             <h2>PHP 499.00</h2>
             <h2>2008 | 19 tracks, 1hr 19min</h2>
             <p class="description">Fearless is the second studio album by the American singer-songwriter Taylor Swift. Inspired by Swift's adolescence, Fearless explores love and heartbreak using references to her personal life and fairy tale–inspired lyrical imagery. Fearless features acoustic arrangements driven by a wide variety of string instruments such as banjos, fiddles, mandolins, and electric guitars. Its songs follow the standard verse–chorus–bridge form with dynamic bridges and choruses. The elements of pop, folk, and rock of Fearless led to some critics arguing against its categorization as a country album.</p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'Fearless', price: 499, photo: 'ts_fearless.png'})">Add to Cart</button>
         </div>
     </div>
 

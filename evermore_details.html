@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>evermore</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2 style="color: white;">PHP 459.00</h2>
             <h2 style="color: white;">2020 | 22 tracks, 1hr 25min</h2>
             <p class="description" style="color: white;">Evermore is the ninth studio album by the American singer-songwriter Taylor Swift. It was a surprise album released on December 11, 2020, via Republic Records, less than five months after her previous studio album Folklore. Evermore blends alternative rock, indie folk and chamber pop styles, carried by fingerpicked guitars, somber pianos, lavish strings, and sparse percussion. Impressionist storytelling and mythopoeia dominate its lyrical technique. The subject matter has been described as an anthology of tales about love, marriage, infidelity, and grief, exploring the complexities of human emotion.</p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'evermore', price: 459, photo: 'ts_evermore.jpg'})">Add to Cart</button>
         </div>
     </div>
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lover</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2>PHP 499.00</h2>
             <h2>2019 | 18 tracks, 1hr 1min</h2>
             <p class="description">Lover is the seventh studio album by the American singer-songwriter Taylor Swift, released on August 23, 2019, by Republic Records. escribed by Swift as a "love letter to love", the album explores wide-ranging emotions like infatuation, commitment, lust, and heartache; a few songs discuss political issues such as LGBT rights and feminism. The production incorporates a 1980s-inspired electropop, pop rock, and synth-pop sound characterized by atmospheric synthesizers, mid-tempo rhythms, and acoustic instruments, with eclectic elements of country, folk, and funk.</p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'Lover', price: 499, photo: 'ts_lover.png'})">Add to Cart</button>
         </div>
     </div>
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>reputation</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./cart.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <a href="./index.html" class="logo"><img src="./assets/ts_logo.png" alt="Dmnd Digital Logo" style="width:100%;height:60px;"></a>
         <div class="header-right">
             <a href="./index.html">Home</a>
-            <a href="#cart">Cart</a>
+            <a href="./cart.html">Cart</a>
         </div>
     </header>
 
@@ -30,7 +31,7 @@
             <h2 style="color: white;">PHP 399.00</h2>
             <h2 style="color: white;">2017 | 15 tracks, 55min</h2>
             <p class="description" style="color: white;">Reputation is the sixth studio album by the American singer-songwriter Taylor Swift. It was released on November 10, 2017, as her last album with Big Machine Records. She conceived Reputation as a response to the media scrutiny on her private life and public image after her previous album, 1989 (2014), propelled her toward global stardom. Inspired by Swift's romantic relationships and tarnished media image caused by celebrity disputes, the songs on Reputation altogether form a linear narrative about a protagonist expressing anger and vengeance against wrongdoers and finding solace in a blossoming love. </p>
-            <button class="addtocart">BUY NOW</button>
+            <button class="addtocart" onclick="addToCart({name: 'reputation', price: 399, photo: 'ts_reputation.jpg'})">Add to Cart</button>
         </div>
     </div>
 
